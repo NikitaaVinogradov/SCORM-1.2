@@ -1,6 +1,10 @@
-<html>
-<!--/* Copyright © 2003-2013 Rustici Software, LLC  All Rights Reserved. www.scorm.com - See LICENSE.txt for usage restrictions */-->
+<!DOCTYPE html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
 
 <script language="JavaScript1.2">
     function WriteToDebug(str){
@@ -28,7 +32,7 @@
     }
 </script>
         
-<script language="VBScript">
+<!-- <script language="VBScript">
     on error resume next
     WriteToDebug("Trying to create MSXML2.XMLHTTP in VBScript")
     Set objXMLHTTP = CreateObject("MSXML2.XMLHTTP")
@@ -37,7 +41,7 @@
         WriteToDebug("Could not create object, error number=" & err.number & ", source=" & err.Source & ", desc=" & err.Description)
         set objXMLHTTP = null
     end if
-</script>       
+</script>        -->
         
 <script language="JavaScript1.5">
     //determine if we can use try/catch statemes in non-IE browsers - anything that runs JavaScript 1.5 (includes all FireFox)
